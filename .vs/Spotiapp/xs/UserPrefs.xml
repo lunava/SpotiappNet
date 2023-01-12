@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{83DAC17E-0DC3-4BCF-A8B0-8B563D08D9D8}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Spotiapp/Services/SpotifyAuthServices.cs">
+    <Files>
+      <File FileName="Spotiapp/Pages/Login.cshtml.cs" Line="56" Column="29" />
+      <File FileName="Spotiapp/Services/SpotifyAuthServices.cs" Line="77" Column="1" />
+      <File FileName="Spotiapp/Models/Authentication/SpotifyToken.cs" Line="1" Column="1" />
+      <File FileName="Spotiapp/Services/ISpotifyAuthServices.cs" Line="30" Column="1" NotebookId="1" />
+      <File FileName="Spotiapp/Program.cs" Line="42" Column="1" NotebookId="1" />
+      <File FileName="Spotiapp/Pages/Login.cshtml" Line="21" Column="11" NotebookId="1" />
+      <File FileName="Spotiapp/Services/ISpotifyServices.cs" NotebookId="1" />
+      <File FileName="Spotiapp/Pages/Index.cshtml" NotebookId="1" />
+      <File FileName="Spotiapp/Pages/Index.cshtml.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Spotiapp/Pages/Privacy.cshtml.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Spotiapp/Pages/Privacy.cshtml" Line="1" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Spotiapp" expanded="True">
+            <Node name="Spotiapp" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Spotiapp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

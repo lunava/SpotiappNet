@@ -1,0 +1,26 @@
+﻿@page
+@model Spotiapp.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<div class="row">
+    @if ( Model._listRest != null && Model._listRest.Count() > 0) {
+            @foreach (var item in Model._listRest) {
+                    <div class="card m-1" style="width: 22rem;">
+                        <div class="card-body">
+                            <h5>@item.artists</h5>
+                            <h6>@item.name</h6>
+                            <p>@item.release_date</p>
+                            <img src ="@item.img_url" width="300" height="300"/>
+
+                        </div>
+                    </div>
+                }
+        }
+    else {
+        <h2>Test</h2>
+    }    
+</div>
+
+
