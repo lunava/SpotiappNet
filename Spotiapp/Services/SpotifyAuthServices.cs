@@ -22,8 +22,6 @@ namespace Spotiapp.Services
             var httpRequestMessage = new HttpRequestMessage(HttpMethod.Post,
                 "api/token"
                 );
-            //Client: e76c18b063df4c56853ed5db4a0cf92f
-            //Secret: 45a00136aec44d24b31d177b160ff56f
             httpRequestMessage.Headers.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.UTF8.GetBytes(ClientID + ":" + ClientSecret)));
 
             httpRequestMessage.Content = new FormUrlEncodedContent(new Dictionary<string, string>()
